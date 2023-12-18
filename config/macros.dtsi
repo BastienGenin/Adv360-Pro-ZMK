@@ -1,26 +1,26 @@
-macro_macro_meh_down: macro_macro_meh_down{
+macro_resize_down: macro_resize_down{
 compatible = "zmk,behavior-macro";
-label = "macro_macro_meh_down";
+label = "macro_resize_down";
 #binding-cells = <0>;
-bindings = <&kp LEFT_CONTROL>, <&kp LEFT_ALT>, <&kp LEFT_COMMAND>, <&kp L>;
+bindings = <&kp LEFT_CONTROL>, <&kp LEFT_SHIFT>, <&kp L>;
 };
-macro_macro_meh_up: macro_macro_meh_up{
+macro_resize_up: macro_resize_up{
 compatible = "zmk,behavior-macro";
-label = "macro_macro_meh_up";
+label = "macro_resize_up";
 #binding-cells = <0>;
-bindings = <&kp LEFT_CONTROL>, <&kp LEFT_ALT>, <&kp LEFT_COMMAND>, <&kp K>;
+bindings = <&sk LEFT_CONTROL>, <&sk LEFT_SHIFT>, <&kp K>;
 };
-macro_macro_meh_left: macro_macro_meh_left{
+macro_resize_right: macro_resize_right{
 compatible = "zmk,behavior-macro";
-label = "macro_macro_meh_left";
+label = "macro_resize_right";
 #binding-cells = <0>;
-bindings = <&kp LEFT_CONTROL>, <&kp LEFT_ALT>, <&kp LEFT_COMMAND>, <&kp J>;
+bindings = <&sk LEFT_CONTROL>, <&sk LEFT_SHIFT>, <&kp M>;
 };
-macro_macro_meh_right: macro_macro_meh_right{
+macro_resize_left: macro_resize_left{
 compatible = "zmk,behavior-macro";
-label = "macro_macro_meh_right";
+label = "macro_resize_left";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp LEFT_ALT>, <&kp LEFT_COMMAND>, <&kp M>;
+bindings = <&sk LEFT_SHIFT>, <&sk LEFT_CONTROL>, <&kp J>;
 };
 macro_macro_meh: macro_macro_meh{
 compatible = "zmk,behavior-macro";
