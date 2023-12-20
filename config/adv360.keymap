@@ -35,9 +35,9 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD_MT";
             #binding-cells = <0>;
-            bindings = <&lt 2 AT>, <&kp LG(SPACE)>;
+            bindings = <&lt 2 LEFT_SHIFT>, <&kp LG(SPACE)>;
 
-            tapping-term-ms = <175>;
+            tapping-term-ms = <230>;
         };
     };
 
