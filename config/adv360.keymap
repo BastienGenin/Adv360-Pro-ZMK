@@ -37,7 +37,7 @@
             #binding-cells = <0>;
             bindings = <&lt 2 LEFT_SHIFT>, <&kp LG(SPACE)>;
 
-            tapping-term-ms = <400>;
+            tapping-term-ms = <200>;
         };
     };
 
